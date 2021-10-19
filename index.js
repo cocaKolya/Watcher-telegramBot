@@ -52,6 +52,7 @@ bot.onText(/\/start/, async (msg) => {
 let top250PageCounter = 1;
 let top250Counter = 1;
 
+
 // обработчик событий нажатий на клавиатуру
 bot.on('callback_query', async (query) => {
   const chatId = query.message.chat.id;
